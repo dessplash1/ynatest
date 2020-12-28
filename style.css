@@ -25,6 +25,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	font-family: tahoma;
+	min-height: 100vh;
+  min-height: -webkit-fill-available;
 }
 ol, ul {
 	list-style: none;
@@ -48,7 +50,6 @@ table {
 	font-size: 2em;
 	padding: 15px;
 	color:white;
-	width:100%;
 	margin-bottom:5%;
 }
 .container{
