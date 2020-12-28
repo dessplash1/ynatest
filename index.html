@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ShoppingList</title>
+		<link href="style.css" rel="stylesheet" />
+	</head>
+<body>
+	<div class="head">ShoppingList</div>
+	<div class="container">
+		
+		<div class="row">
+			<div class="columnLeft">
+				<div	class="block">
+					
+					<div class="head">Add your items here</div>
+					<div class="items">
+							<div class="item">
+							
+								<div class="itemBlock lightText">
+									<input type="checkbox" id="milk"> <label for="milk">Milk</label>
+								</div>
+								<div class="itemBlock">
+									<input type="checkbox" id="bread"> <label for="bread">Bread</label>
+									<span class="delBox" id="delItem(id)">X</span>
+								</div>
+								
+								<div class="itemBlock lightText"><input type="checkbox" id="cheerios"> <label for="cheerios">Cheerios</label></div>
+								<div class="itemBlockAdd"><a href="javascript:;" id="addItem">Add Item</a></div>
+
+							
+							</div>
+
+					</div>
+
+				</div>
+			</div>
+			<div class="columnRight">
+				<div	class="block">
+					<div class="head">Details</div>
+					<div class="items details">
+							
+							<div class="item"><label>Quantity</label><input type="text" name="quantity" value=""></div>
+							<div class="item"><label>Price</label><input type="text" name="price" value=""></div>
+							<div class="item"><label>Description</label><textarea  name="description" rows="4"></textarea></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html
